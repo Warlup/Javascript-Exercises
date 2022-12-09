@@ -22,11 +22,13 @@ const sortingByAge = sortPeopleByAge(people)
 console.log(sortingByAge)
 
 // Un altro modo per risolvere il problema
-// if ( a.age < b.age ){
+// const peopleSort = people.sort((a, b) => {
+//  if ( a.age < b.age ){
 //   return -1;
 // }
 // if ( a.age > b.age ){
 //   return 1;
 // }
 // return 0;
+// });
 // return peopleSort;
