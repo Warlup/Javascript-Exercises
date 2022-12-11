@@ -26,7 +26,7 @@ class Circle {
     this.radius = radius;
   }
   area(){
-    if (Square instanceof Object) {
+    if (Circle instanceof Object) {
       return Math.round(Math.PI * this.radius * this.radius);
     }
   }
