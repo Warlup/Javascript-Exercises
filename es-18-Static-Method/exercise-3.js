@@ -1,7 +1,6 @@
 class Person {
   static fromObject(obj) {
-    let Person = obj;
-    return Person;
+    return new Person(obj.firstName, obj.lastName)
   }
   constructor(firstName, lastName) {
     this.firstName = firstName;
@@ -18,3 +17,8 @@ const obj = {
 const person = Person.fromObject(obj);
 console.log(person.firstName + " " + person.lastName);
 console.log(person);
+
+obj.firstName = "Giuseppe"
+
+console.log(person);
+console.log(obj);
