@@ -2,11 +2,6 @@ class Square {
   constructor(side) {
     this.side = side;
   }
-  // area(){
-  //   if (Square instanceof Object) {
-  //     return this.side * this.side;
-  //   }
-  // }
 }
 
 class Rectangle {
@@ -14,29 +9,15 @@ class Rectangle {
     this.width = width;
     this.height = height;
   }
-  // area(){
-  //   if (Rectangle instanceof Object){
-  //     return this.width * this.height;
-  //   }
-  // }
 }
 
 class Circle {
   constructor(radius) {
     this.radius = radius;
   }
-  // area(){
-  //   if (Circle instanceof Object) {
-  //     return Math.round(Math.PI * this.radius * this.radius);
-  //   }
-  // }
 }
 
-// class AreaCalculator {
-//   static calculate(val){
-//     return val.area();
-//   }
-// }
+
 
  class AreaCalculator {
   static calculate(val){
