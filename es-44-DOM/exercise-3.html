@@ -20,5 +20,7 @@
 </html>
 
 <script>
-  // code here
+  console.log([...document.querySelectorAll("form>div")].map(div=>({
+    [div.querySelector("label").innerText]:div.querySelector("input").value
+  })))
 </script>
